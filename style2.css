@@ -1,0 +1,178 @@
+html {
+    background-color: #fbecd4;
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-family: 'Nunito', sans-serif;
+    color: #422515;
+    font-size: 10px;
+}
+
+#nav_title{
+  font-size: 20px;
+  justify-content: left;
+  text-align: left;
+}
+
+#nav_title:hover{
+color: #64c9d1;
+}
+
+.nav-items {
+display: inline;
+}
+ 
+#nav_list_button{
+    background-color: #fbecd4;
+    border: none;
+    font-family: 'Nunito', 'sans-serif';
+    border-radius: 30%;
+    display: inline;
+}
+
+#nav_list_button:hover{
+    border-radius: 30%;
+    color: #e1c15a;
+
+}
+
+/* background image */
+#discography_header{
+    color: antiquewhite;
+    font-weight: 200px;
+    font-size: 50px;
+    letter-spacing: 50px ;
+    border-color: #422515;
+    border-width: thick;
+
+}
+#discography_header:hover{
+    color:#64c9d1;
+    font-size: 80px;
+}
+.mask{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  #quote{
+    color: #e1c15a;
+justify-content: center;
+text-align: center;
+margin: auto;
+padding-top: 50px;
+  }
+
+  /* quote lyrics */
+  #quote{
+    line-height: 160%;
+    font-family: 'Nunito', sans-serif;
+  }
+  #quote:hover{
+    background-color: #f4c1bc;
+    color: #64c9d1;
+    letter-spacing: 5px;
+  }
+  #sir_baudelaire{
+    list-style: none;
+    text-decoration: none;
+    color: #422515;
+  }
+  #sir_baudelaire:hover{
+    color:#64c9d1;
+    text-decoration: underline;
+  }
+  .quote_animation{
+
+  }
+
+  /* song description sections */
+  #song_title{
+    margin-left: 100px;
+
+  }
+  #song_description{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 50px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  #lyric_image{
+    height:500px; 
+    width:400px; 
+    justify-content: center;
+    text-align: center;
+     margin: auto;
+     margin-left:30px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+
+  }
+  #song_title:hover{
+    font-size: 50px;
+    color: #64c9d1;
+    border-color: #422515;
+    border-radius: 30px;
+  }
+
+  .divider{
+    height: 60px;
+    background-color:#fbecd4 ;
+    color: #fbecd4;
+  }
+
+  p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold ;
+    margin-left: 100px;
+    padding-top: 10px;
+    padding-bottom:30px;
+  }
+
+  .name {
+color:#f4c1bc;
+font-family: 'Nothing You Could Do', cursive;
+border-radius: 30px;
+border: none;
+}
+
+.email{
+  color:#64c9d1;
+  font-family: 'Nothing You Could Do', cursive;
+  border-radius: 30px;
+  border: none;
+}
+
+.email:hover{
+  color:#e1c15a;
+}
+
+
+
+  #submit_button{
+    border: none;
+    border-radius: 30%;
+    background-color: #e1c15a;
+    color: #422515;
+    font-family: "Nunito", "Sans-serif";
+  }
+
+#submit_button:hover{
+  border: none;
+  border-radius: 30%;
+  background-color: #64c9d1;
+  color: #fbecd4;
+  box-shadow: #422515;
+}  
+label{
+  font-family: "Nunito";
+  font-weight: lighter;
+}
